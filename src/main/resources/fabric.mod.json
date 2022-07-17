@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "surgic",
+  "version": "${version}",
+
+  "name": "Surgic",
+  "description": "Surgic is a mod adding industrial themed blocsk and items.",
+  "authors": [
+    "BjmH"
+  ],
+  "contact": {
+    "homepage": "https://github.com/benjaminheath238/Surgic",
+    "sources": "https://github.com/benjaminheath238/Surgic"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/surgic/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bjmh.surgic.Surgic"
+    ]
+  },
+  "mixins": [
+    "surgic.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
