@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# Surgic
+
+Surgic is a mod for minecraft that add blocks and items with an industrial and technological theme.
+
+---
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+TODO
 
-## License
+---
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Licensing
+
+This software is licenced under the MIT license the definition of which can be found in the [LICENSE](LICENSE) file.
