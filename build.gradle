@@ -54,6 +54,18 @@ java {
 }
 
 jar {
+	exclude(
+		"assets/surgic/textures/block/bases/",
+		"assets/surgic/textures/block/layers/",
+		"assets/surgic/textures/item/bases/",
+		"assets/surgic/textures/item/layers/",
+		"tasks/",
+		"templates/",
+		"mccg.ini",
+		"surgic.ini",
+		"latest.log"
+	)
+
 	from("LICENSE") {
 		rename { "${it}_${project.archivesBaseName}"}
 	}
